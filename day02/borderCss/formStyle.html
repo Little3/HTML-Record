@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框样式-用于表单</title>
+    <style>
+      .myInput{
+          height:30px;
+          width: 180px;
+          border: 10px groove green;
+          border-radius:10px ;
+          background-color: gray;
+          margin-top: 10px;
+      }
+        .addr{
+            height: 30px;
+            width: 180px;
+            border-radius: 10px;
+            border-top-style:none;
+            border-bottom:1px dotted  red;
+            margin-top: 10px;
+        }
+        #loginBtn{
+            height: 30px;
+            width: 180px;
+            background-color: #00FF00;
+            border-radius: 10px;
+            border:1px solid #00FF00;
+            color: red;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        #psw{
+            margin-left: 16px;
+        }
+        #add{
+            margin-left: 16px;
+        }
+    </style>
+</head>
+<body>
+      <form>
+          用户名<input class="myInput" type="text " name="username"><br>
+          密码<input  class="myInput" id="psw" type="password" name="userpsw"><br>
+          住址<input class="addr" id="add" type="text " name="useraddr"><br>
+          <input id="loginBtn" type="button" value="登录">
+      </form>
+</body>
+</html>

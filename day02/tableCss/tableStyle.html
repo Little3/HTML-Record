@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格样式</title>
+    <style>
+        table,tr,td{
+            border:1px solid gray;
+            border-collapse:collapse;
+        }
+        table{
+            width: 60%;
+            height: 30%;
+            text-align: center;
+        }
+        td{
+            height: 50px;
+            vertical-align:top;
+        }
+        .trHead{
+            background-color:gray ;
+            color: red;
+            font-size: 30px;
+        }
+        .nb{
+            background-color: #00FF00;
+        }
+    </style>
+</head>
+<body>
+     <table border="1px">
+         <tr>
+             <td class="trHead">工号</td>
+             <td class="trHead">密码</td>
+             <td class="trHead">姓名</td>
+         </tr>
+         <tr>
+             <td class="nb">1001</td>
+             <td class="nb">123456</td>
+             <td class="nb">苏志斌</td>
+         </tr>
+         <tr>
+             <td>1002</td>
+             <td>654321</td>
+             <td class="nb">韩英超</td>
+         </tr>
+     </table>
+</body>
+</html>
